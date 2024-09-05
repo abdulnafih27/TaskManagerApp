@@ -17,24 +17,33 @@ This is a simple Node.js web application for managing tasks. The application all
 
 ## Installation
 
+- Step 1: Clone the repository
 ```bash
-# Step 1: Clone the repository
 git clone https://github.com/abdulnafih27/TaskManagerApp.git
+```
 
-# Navigate into the project directory
-cd task-manager-api
+- Navigate into the project directory
+```bash
+cd TaskManagerApp
+```
 
-# Step 2: Install Dependencies
+- Step 2: Install Dependencies
+```bash
 npm install
+```
 
-# Step 3: Create a .env file and add the MongoDB connection string
-echo "MONGO_URI=Your_MongoDB_Connection_String" > .env
+- Step 3: Create a .env file and add the MongoDB connection string
+```bash
+MONGO_URI=Your_MongoDB_Connection_String 
 
 # Note: Replace "Your_MongoDB_Connection_String" with your actual MongoDB URI.
 # Example for MongoDB Atlas:
-# echo "MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/task-manager?retryWrites=true&w=majority" > .env
+# MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/task-manager?retryWrites=true&w=majority" > .env
+```
 
-# Step 4: Run the application in development mode
+
+- Step 4: Run the application in development mode
+```bash
 npm start
 ```
 
